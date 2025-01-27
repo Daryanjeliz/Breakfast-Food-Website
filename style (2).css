@@ -1,0 +1,117 @@
+/* background color */
+
+body {
+  background-color: gold;
+}
+
+/*Heading styles*/
+
+h2 {
+  text-align: center;
+  border-style: solid;
+  border-color:saddlebrown;
+  background-color:goldenrod;
+}
+
+
+/* paragraph style*/
+
+p {
+  color: brown;
+}
+
+
+
+
+/* image styles*/
+.Pancakes {
+  width: 200px;
+  height: 200px;
+  border-color: lightgoldenrodyellow;
+  border-width: 5px;
+  border-style:groove;
+  border-radius: 600px;
+  float:right;
+}
+
+.Pancakes2 {
+  width: 200px;
+  height: 200px;
+  border-color: lightgoldenrodyellow;
+  border-width: 5px;
+  border-style:groove;
+  border-radius: 600px;
+  float:right;
+}
+
+.Eggs{
+  width: 200px;
+  height: 200px;
+  border-color: lightgoldenrodyellow;
+  border-width: 5px;
+  border-style:groove;
+  border-radius: 600px;
+  float:left;
+}
+
+.Eggs2{
+  width: 200px;
+  height: 200px;
+  border-color: lightgoldenrodyellow;
+  border-width: 5px;
+  border-style:groove;
+  border-radius: 600px;
+  float:left;
+}
+
+
+.Oatmeal{
+  width: 200px;
+  height: 200px;
+  border-color: lightgoldenrodyellow;
+  border-width: 5px;
+  border-style:groove;
+  border-radius: 600px;
+  float:right;
+}
+
+.Oatmeal2{
+  width: 200px;
+  height: 300px;
+  border-color: lightgoldenrodyellow;
+  border-width: 5px;
+  border-style:groove;
+  border-radius: 600px;
+  float:right;
+}
+
+/* Link styles */
+a:link{
+  color: #710909;
+}
+a:visited{
+  color: brown;
+}
+a:hover{
+  color: lightyellow;
+  border-style: dotted;
+}
+a:active{
+  color: sandybrown;
+  border-style: groove;
+}
+
+/* Paragraph Order */
+.gallery{
+  display: flex;
+  flex-direction: row;
+}
+.link-card{
+  display: flex;
+  align-items: flex-start;
+  border-style: groove;
+  border-color: saddlebrown;
+  border-width: 5px;
+  border-radius: 40px;
+  justify-content: space-around;
+}
